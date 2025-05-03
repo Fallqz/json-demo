@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Form Creation</title>
+</head>
+<body>
+
+  <h1>Please fill out the form below</h1>
+
+  <form action="/submit-order" method="post">
+
+    <label>First Name:</label>
+    <input type="text" name="firstName" minlength="2" maxlength="20" required><br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="lastName" minlength="2" maxlength="20" required><br><br>
+
+    <label>Which food would you like to eat?</label>
+    <select name="foodChoice" required>
+      <option value="">--Please choose an option--</option>
+      <option>Chicken</option>
+      <option>Beef</option>
+      <option>Fish</option>
+    </select><br><br>
+
+    <label>Do you have any allergies?</label><br>
+    <textarea name="allergies" rows="4" cols="40" placeholder="Allergies?"></textarea><br><br>
+
+    <button type="submit">Send</button>
+
+  </form>
+
+</body>
+</html>
