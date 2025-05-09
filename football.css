@@ -1,0 +1,28 @@
+.crimson {
+  color: crimson;
+}
+
+.green {
+  color: green;
+}
+
+.maize {
+  color: #FFCB05;
+}
+
+.red {
+  color: red;
+}
+
+.burnt-orange {
+  color: #BF5700;
+}
+
+#yes {
+  background-color: green;
+  color: white;
+}
+
+#no {
+  background-color: red;
+  color: white;
